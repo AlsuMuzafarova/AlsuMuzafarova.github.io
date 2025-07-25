@@ -19,7 +19,7 @@ interface menuItem {
 const Sidebar: React.FC = () => {
     const initialMenuItems: menuItem[] = [
         { id: 1, name: 'Главная', active: true, icon: home, page: "/"},
-        { id: 2, name: 'Коллекция', active: false, icon: collection, page: "/collection"},
+        { id: 2, name: 'Коллекция', active: false, icon: collection, page: "/Collections"},
         { id: 3, name: 'Персонал', active: false, icon: staff, page: "/NotFound"},
         { id: 4, name: 'Календарь', active: false, icon: calendar, page: "/NotFound"},
         { id: 5, name: 'Контакты', active: false, icon: contacts, page: "/NotFound"},
